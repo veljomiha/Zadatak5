@@ -122,12 +122,13 @@ body {
 }
 
 .container {
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--color1);
+    padding: 20px 0;
 }
 
 .main {
