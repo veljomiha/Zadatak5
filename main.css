@@ -193,6 +193,7 @@ body {
     background-color: var(--color2);
     border-radius: 13px;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 #circle {
@@ -201,7 +202,6 @@ body {
     background-color: var(--color5);
     margin: 5px 0 5px 5px;
     border-radius: 50%;
-    cursor: pointer;
 }
 
 
@@ -211,7 +211,6 @@ body {
     background-color: var(--color2);
     margin: 5px 0 5px 5px;
     border-radius: 50%;
-    cursor: pointer;
 }
 
 #circle3 {
@@ -220,7 +219,6 @@ body {
     background-color: var(--color2);
     margin: 5px 0 5px 5px;
     border-radius: 50%;
-    cursor: pointer;
 }
 
 .section-two {
