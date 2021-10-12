@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+:root {
+    /*theme 1*/
+    /*background*/
+    --color1: #3A4663;
+    /*123*/
+    --color2: #242D44;
+    /*input*/
+    --color3: #181F33;
+    /*del and reset bg*/
+    --color4: #647198;
+    /*= and circle*/
+    --color5: #D03F2F;
+    /*numbers color*/
+    --color6: #434A59;
+    /*text del and reset color*/
+    --color7: #FFFFFF;
+    /*bg numbers*/
+    --color9: #E5E4E1;
+    /*box shadow numbers*/
+    --color10: #B3A497;
+    /*box shadow =*/
+    --color11: #93261A;
+    /*box shadow del and reset*/
+    --color12: #414E73;
+    /*equal color text*/
+    --color13: #FFFFFF;
+    /*hover numbers*/
+    --color14: #FFFFFE;
+    /*hover del reset*/
+    --color15: #A2B2E1;
+    /*hover circle and equal*/
+    --color16: #F96B5B;
+}
+
+.theme-two {
+    /*theme 2*/
+    /*background*/
+    --color1: #E6E6E6;
+    /*123*/
+    --color2: #D2CDCD;
+    /*input*/
+    --color3: #EEEEEE;
+    /*del and reset bg*/
+    --color4: #378187;
+    /*= and circle bg*/
+    --color5: #C85402;
+    /*numbers colors*/
+    --color6: #36362C;
+    /*body text color*/
+    --color7: #36362C;
+    /*text del and reset color*/
+    --color8: #fff;
+    /*bg numbers*/
+    --color9: #E5E4E1;
+    /*box shadow numbers*/
+    --color10: #A79E91;
+    /*box shadow =*/
+    --color11: #873901;
+    /*box shadow del and reset*/
+    --color12: #1B6066;
+    /*equal color text*/
+    --color13: #FFFFFF;
+    /*hover numbers*/
+    --color14: #FFFFFE;
+    /*hover del reset*/
+    --color15: #62B5BC;
+    /*hover circle and equal*/
+    --color16: #FF8A38;
+}
+
+
+.theme-three {
+    /*theme 3*/
+    /*background*/
+    --color1: #17062A;
+    /*123*/
+    --color2: #1E0936;
+    /*input*/
+    --color3: #1E0936;
+    /*del and reset bg*/
+    --color4: #56077C;
+    /*= and circle bg*/
+    --color5: #00DED0;
+    /*numbers colors*/
+    --color6: #FFE53D;
+    /*body text color*/
+    --color7: #FFE53D;
+    /*text del and reset color*/
+    --color8: #FFFFFF;
+    /*bg numbers*/
+    --color9: #331C4D;
+    /*box shadow numbers*/
+    --color10: #881C9E;
+    /*box shadow =*/
+    --color11: #6CF9F1;
+    /*box shadow del and reset*/
+    --color12: #BE15F4;
+    /*equal color text*/
+    --color13: #1A2327;
+    /*hover numbers*/
+    --color14: #6C34AC;
+    /*hover del reset*/
+    --color15: #8631AF;
+    /*hover circle and equal*/
+    --color16: #93FFF8;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--color7);
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color1);
+}
+
+.main {
+    width: 540px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-one>h1 {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.533333px;
+    color: var(--color7);
+}
+
+.calc-right-side {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    color: var(--color7);
+}
+
+.calc-right-side>p {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 21px;
+    margin-bottom: 5px;
+}
+
+
+.theme {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 71px;
+    max-width: 100%;
+}
+
+.theme-one-two-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.theme-one-two-three>p {
+    cursor: pointer;
+}
+
+.around-the-circle {
+    display: flex;
+    width: 71px;
+    max-width: 100%;
+    height: 26px;
+    background-color: var(--color2);
+    border-radius: 13px;
+    margin-top: 5px;
+}
+
+#circle {
+    width: 16px;
+    height: 16px;
+    background-color: var(--color5);
+    margin: 5px 0 5px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+#circle2 {
+    width: 16px;
+    height: 16px;
+    background-color: var(--color2);
+    margin: 5px 0 5px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+#circle3 {
+    width: 16px;
+    height: 16px;
+    background-color: var(--color2);
+    margin: 5px 0 5px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.section-two {
+    margin-top: 32px;
+    width: 540px;
+    max-width: 100%;
+    height: 128px;
+    background: var(--color3);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.8px;
+    color: var(--color7);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.section-three {
+    width: 540px;
+    max-width: 100%;
+    margin-top: 24px;
+    background-color: var(--color2);
+    display: grid;
+    grid-template-areas: "num-seven num-eight num-nine btn-del"
+        "num-for num-five num-six oper-add"
+        "num-one num-two num-three oper-sub"
+        "btn-dot num-zero oper-div oper-mul"
+        "btn-reset btn-reset btn-equal btn-equal";
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 10px;
+    grid-gap: 25px;
+    padding: 32px;
+}
+
+.section-three>button {
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+.num-eight,
+.num-five,
+.num-for,
+.num-nine,
+.num-one,
+.num-seven,
+.num-six,
+.num-three,
+.num-two,
+.num-zero,
+.oper-add,
+.oper-div,
+.oper-mul,
+.oper-sub,
+.btn-dot,
+.btn-equal {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.533333px;
+    color: var(--color6);
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 0px -4px 0px var(--color10);
+    background-color: var(--color9);
+    padding: 10px 13px 14px 13px;
+}
+
+.num-eight:hover,
+.num-five:hover,
+.num-for:hover,
+.num-nine:hover,
+.num-one:hover,
+.num-seven:hover,
+.num-six:hover,
+.num-three:hover,
+.num-two:hover,
+.num-zero:hover,
+.oper-add:hover,
+.oper-div:hover,
+.oper-mul:hover,
+.oper-sub:hover,
+.btn-dot:hover {
+    background-color: var(--color14);
+}
+
+.btn-del,
+.btn-reset {
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 22px;
+    background-color: var(--color4);
+    box-shadow: inset 0px -4px 0px var(--color12);
+    letter-spacing: -0.333333px;
+    color: var(--color8);
+    padding: 10px 13px 14px 13px;
+}
+
+.btn-del:hover,
+.btn-reset:hover {
+    background-color: var(--color15);
+}
+
+.num-seven {
+    grid-area: num-seven;
+}
+
+.num-eight {
+    grid-area: num-eight;
+}
+
+.num-nine {
+    grid-area: num-nine;
+}
+
+.btn-del {
+    grid-area: btn-del;
+}
+
+.num-for {
+    grid-area: num-for;
+}
+
+.num-five {
+    grid-area: num-five;
+}
+
+.num-six {
+    grid-area: num-six;
+}
+
+.oper-add {
+    grid-area: oper-add;
+}
+
+.num-one {
+    grid-area: num-one;
+}
+
+.num-two {
+    grid-area: num-two;
+}
+
+.num-three {
+    grid-area: num-three;
+}
+
+.oper-sub {
+    grid-area: oper-sub;
+}
+
+.btn-dot {
+    grid-area: btn-dot;
+}
+
+.num-zero {
+    grid-area: num-zero;
+}
+
+.num-zero {
+    grid-area: num-zero;
+}
+
+.oper-div {
+    grid-area: oper-div;
+}
+
+.oper-mul {
+    grid-area: oper-mul;
+}
+
+.btn-reset {
+    grid-area: btn-reset;
+}
+
+.btn-equal {
+    grid-area: btn-equal;
+    background: var(--color5);
+    box-shadow: inset 0px -4px 0px var(--color11);
+    color: var(--color13);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    padding: 11px 0 13px 0;
+}
+
+.btn-equal:hover {
+    background-color: var(--color16);
+}
+
+#circle:hover{
+    background-color: #F96B5B;
+}
+
+body.theme-two #circle2:hover{
+    background-color: #FF8A38!important;
+}
+
+body.theme-three #circle3:hover{
+    background-color: #93FFF8!important;
+}
+
+
+@media(max-width:560px) {
+
+
+    .main {
+        width: 327px;
+    }
+
+    .section-two {
+        margin-top: 32px;
+        width: 327px;
+        max-width: 100%;
+        height: 88px;
+        background: var(--color3);
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -0.533333px;
+    }
+
+    .section-three {
+        width: 327px;
+        max-width: 100%;
+        margin-top: 24px;
+        grid-gap: 13px;
+        padding: 24px;
+
+    }
+
+    .section-three>button {
+        border-radius: 10px;
+    }
+
+    .num-eight,
+    .num-five,
+    .num-for,
+    .num-nine,
+    .num-one,
+    .num-seven,
+    .num-six,
+    .num-three,
+    .num-two,
+    .num-zero,
+    .oper-add,
+    .oper-div,
+    .oper-mul,
+    .oper-sub,
+    .btn-dot,
+    .btn-equal {
+        font-size: 28px;
+        line-height: 31px;
+        padding: 10px 10px 14px 10px;
+        width: 60px;
+        height: 65px;
+    }
+
+    .btn-del,
+    .btn-reset {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 10px 10px 14px 10px;
+    }
+
+    .btn-equal {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 9px 0 15px 0;
+        height: 65px;
+        width: auto;
+
+    }
+
+}
