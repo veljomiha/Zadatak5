@@ -167,7 +167,6 @@ body {
     margin-bottom: 5px;
 }
 
-
 .theme {
     display: flex;
     justify-content: space-between;
@@ -215,7 +214,6 @@ body {
     cursor: pointer;
 }
 
-
 #circle3 {
     width: 16px;
     height: 16px;
@@ -226,6 +224,7 @@ body {
 }
 
 .section-two {
+    padding-right: 32px;
     margin-top: 32px;
     width: 540px;
     max-width: 100%;
@@ -435,13 +434,12 @@ body.theme-three #circle3:hover{
 
 
 @media(max-width:560px) {
-
-
     .main {
         width: 327px;
     }
 
     .section-two {
+        padding-right: 24px;
         margin-top: 32px;
         width: 327px;
         max-width: 100%;
