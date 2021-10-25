@@ -119,11 +119,11 @@ function setStrAsValue(valueStr) {
 
 function numClick(numStr) {
     const currDisplay = getDisplayValueAsString();
-     if(currDisplay === '0'){
-        setStrAsValue(numStr)
+     if((currDisplay == '0') ||(currDisplay == '+')||(currDisplay == '-')||(currDisplay == '*')||(currDisplay == '/')){
+        setStrAsValue(numStr);
      }
      else{
-        setStrAsValue(currDisplay + numStr)
+        setStrAsValue(currDisplay + numStr);
      }
 }
 for(let i=0;i<numArray.length;i++){
@@ -179,7 +179,7 @@ function getResult() {
     }else if(operatorInMemory === "oper-div"){
         newValueNum = valueNumInMemory / currValueNum;
     }
-    return newValueNum.toString();
+    return newValueNum.toString().substring(0,10);
 }
 
 function operClick(operation){
