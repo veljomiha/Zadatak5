@@ -178,7 +178,7 @@ function getResult() {
     }else if(operatorInMemory === "oper-div"){
         newValueNum = valueNumInMemory / currValueNum;
     }
-    // return newValueNum.toString().substring(0,10);
+    return newValueNum.toString().substring(0,10);
 }
 
 function operClick(operation){
