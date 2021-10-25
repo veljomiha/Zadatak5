@@ -164,7 +164,6 @@ function dell(){
 }
 del.addEventListener("click", dell);
 
-
 function getResult() {
     const currValueNum = getDisplayValueAsFloat();
     const valueNumInMemory = parseFloat(valueStrInMemory);
